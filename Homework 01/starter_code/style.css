@@ -1,0 +1,77 @@
+body {
+    padding: 30px;
+    line-height: 1.5rem;
+}
+
+#navbar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style:none;
+    gap: 20px;
+    background-color: #333;
+}
+
+#navbar li a{
+    display: block;
+    font-size: 20px;
+    color: #ccccff;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(103, 135, 150);
+}
+
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+hr {
+    border-bottom: solid 2px black;
+}
+
+img {
+    float: right;
+}
+
+.discoveries {
+    display: block;
+    width: 18%;
+    border: 2px solid black;
+}
+
+.header {
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+}
+
+tr:first-child {
+    background-color: black;
+    color: white;
+}
+
+tr,th {
+    padding: 7px;
+}
+
+tr:nth-child(2) {
+    background-color:#f5f5f0;
+}
+
+tr:nth-child(3) {
+    background-color:#f5f5f0;
+}
+
+tr:nth-child(4) {
+    background-color:#f5f5f0;
+}
+
+tr:nth-child(5) {
+    background-color:#f5f5f0;
+}
