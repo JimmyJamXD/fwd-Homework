@@ -5,17 +5,195 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-p {
+/* p {
   font-size: 18px;
   line-height: 1.5;
   padding: 15px 0;
+} */
+
+/* Navigation Bar */
+.header {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  padding: 10px 0 10px 0;
+  border-bottom: solid 5px #ffd900;
 }
 
-.visibleBox {
+.headerlogo {
+  font-size: 23px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 50%;
+  padding-left: 50px;
+}
+
+.headerlogo a {
+  color: #f2ff00;
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  text-decoration: none;
+  /* background-color: green; */
+}
+
+.navbar ul {
+  display: flex;
+  margin: 10px 10px 10px 10px;
+  overflow: hidden;
+  list-style:none;
+  gap: 20px;
+  text-decoration: none;
+  /* background-color: yellow; */
+}
+
+.navbar ul li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  justify-content: flex-end;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar ul li a:hover {
+  color: #ffd900;
+}
+
+.subheader {
+  text-align: center;
+  padding: 15px 15px;
+  font-family:'Lato', sans-serif ;
+  background-color: #adadad ;
+}
+
+span {
+  border-bottom: solid 3px #f2ff00; 
+}
+
+/* img {
+  width: 100%;
+} */
+section {
+  display: flex;
+  border-bottom: 30px;
+}
+.imagepage {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg) center center no-repeat;
+  background-size: cover;
+  min-height: 60%;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+div{
+  display: block;
+}
+
+.boxsection {
+  justify-content: flex-end;
+  align-items: center;
+  width: 360px;
+  height: 230px;
+  padding: 3%;
+  border: solid 2px black;
+  background-color: white;
+  margin: 25px  25px 25px 0;
+}
+
+.boxsection h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.boxsection p {
+  font-family: 'Lato', sans-serif;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.boxsection .profile {
+  display:block;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  background-color: #f2ff00; 
+  text-align: center;
+  align-items: center;
+  color: black;
+  width: 100%;
+  border-radius: 15px;
+  padding: 10px 10px;
+}
+
+.additionalheading {
+  display: flex;
+  justify-content: space-between;
+  border-top: 30px;
+}
+
+.additionalheading .additionheadingsub {
+  width: 33%;
+  border-right: solid 2px #adadad;
+  padding: 20px 20px;
+} 
+
+.additionalheading .additionheadingsub h1 {
+  border-top: 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.additionalheading .additionheadingsub p {
+  font-family: 'Merriweather', serif;
+  margin-bottom: 10px;
+  line-height: 30px;
+} 
+
+.additionalheading .additionheadingsub a {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  justify-content: center;
+  background-color: #adadad;
+  align-items: center;
+}
+
+.button {
+  display:block;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  background-color: #878787; 
+  text-align: center;
+  align-items: center;
+  color: black;
+  width: 95%;
+  border-radius: 15px;
+  padding: 10px 10px;
+}
+
+.footer {
+  bottom: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Merriweather', serif;
+  padding-left: 20px;
+  padding: 10px 10px;
+  width: 100%;
+}
+/* .visibleBox {
   background: rgb(150,150,165);
   min-height: 40px;
   box-sizing: border-box;
-}
+} */
+
 /* Fonts, classes are so I can reuse the styles on a variety of elements */
 .merriweather { font-family: 'Merriweather', serif; }
       .oswald { font-family: 'Oswald', sans-serif; }
