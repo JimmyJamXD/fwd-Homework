@@ -5,11 +5,11 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-/* p {
+p {
   font-size: 18px;
   line-height: 1.5;
   padding: 15px 0;
-} */
+}
 
 /* Navigation Bar */
 .header {
@@ -36,7 +36,6 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   justify-content: flex-end;
   text-decoration: none;
-  /* background-color: green; */
 }
 
 .navbar ul {
@@ -46,7 +45,6 @@ h1, h2, h3, h4, h5, h6, p {
   list-style:none;
   gap: 20px;
   text-decoration: none;
-  /* background-color: yellow; */
 }
 
 .navbar ul li {
@@ -76,9 +74,6 @@ span {
   border-bottom: solid 3px #f2ff00; 
 }
 
-/* img {
-  width: 100%;
-} */
 section {
   display: flex;
   border-bottom: 30px;
@@ -188,11 +183,6 @@ div{
   padding: 10px 10px;
   width: 100%;
 }
-/* .visibleBox {
-  background: rgb(150,150,165);
-  min-height: 40px;
-  box-sizing: border-box;
-} */
 
 /* Fonts, classes are so I can reuse the styles on a variety of elements */
 .merriweather { font-family: 'Merriweather', serif; }
