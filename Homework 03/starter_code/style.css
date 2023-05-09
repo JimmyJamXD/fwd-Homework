@@ -1,0 +1,324 @@
+/* ### Colors */
+/* Green: #20c063 / RGBA(32,192,99,1)
+Gray: #e8e9ea  / RGBA (232,233,234,1)
+Dark Text: #3b4144 / RGBA (59,65,68,1) */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navheader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: #20c063 ;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.navsub1 {
+    display: flex;
+    justify-content: start;
+}
+
+.navsub1 img {
+    display:block;
+    width:17%;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.navsub1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.navsub1 ul li a {
+    display: flex;
+    text-decoration: none;
+    padding-right: 20px; 
+    color: white;
+}
+
+.navsub2 {
+    display: flex;
+    justify-content: end;
+}
+
+.navsub2 ul {
+    display: flex;
+    list-style: none;
+}
+
+.navsub2 ul li a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: white;
+    padding-left: 20px;
+}
+
+.divsub{
+    display: flex;
+    flex: nowrap;
+    margin-left: 40px;
+    color:black;
+    margin-top: 20px;
+}
+
+.divsubp1 {
+    font-weight: bold;
+}
+
+.divsub .divsubp2 {
+    padding-left: 15px;
+}
+
+.trulia-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #e8e9ea;
+    grid-gap: 15px;
+    padding: 25px;
+}
+
+.trulia-grid-item {
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 13px;
+}
+
+.new-box {
+    color: white;
+    background-color:#20c063;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 5px;
+    width: 8%;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.new-box-8 {
+    color: white;
+    background-color:rgba(134, 144, 152, 0.45);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 30%;
+    padding-left: 4px;
+    font-size: 14px;
+}
+
+.trulia-house-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0px 0px 0px 10px;
+    background-color: white;
+}
+
+.trulia-house-facts li{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.trulia-house-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.trulia-house-price h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.trulia-house-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 40%;
+}
+
+.trulia-house-stats ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+.trulia-house-stats ul li{
+    display: flex;
+    justify-content: space-around;
+}
+
+.trulia-house-address {
+    margin: 0; 
+    line-height: 15px;
+    color: #787d81;
+    font-style: italic;
+}
+
+.trulia-article-icon {
+    width:auto;
+    height: 50%;
+    padding-right: 3px;
+}
+
+.trulia-house-image {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 600px;
+    min-height: 60%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.uparrow {
+    display: flex;
+    width: 20px;
+    align-items: center;
+}
+
+.trulia-house-image-1 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-1.jpg);
+}
+
+.trulia-house-image-2 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-2.jpg);
+}
+
+.trulia-house-image-3 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-3.jpg);
+} 
+
+.trulia-house-image-4 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-4.jpg);
+}
+
+.trulia-house-image-5 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-5.jpg);
+} 
+
+.trulia-house-image-6 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-6.jpg);
+} 
+
+.trulia-house-image-7 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-7.jpg);
+}
+
+.trulia-house-image-8 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-8.jpg);
+} 
+
+.trulia-house-image-9 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-09.jpg);
+} 
+
+.trulia-house-image-10 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-10.jpg);
+} 
+
+.trulia-house-image-11 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-11.jpg);
+} 
+
+.trulia-house-image-12 {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-12.jpg);
+} 
+
+.centersection {
+    display: flex;
+    justify-content: center;
+}
+
+.centeraside {
+    margin: 10px;
+}
+
+.centeraside ul {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 0;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.centeraside ul li {
+    list-style: none;
+    padding-left: 3px;
+}
+
+.centeraside ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: #20c063;
+}
+
+.centeraside p {
+    margin-bottom: 20px;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center; 
+    color: #3b4144;
+    margin-bottom: 0;
+}
+
+.subsection {
+    display: flex;
+    margin: 30px;
+}
+
+.subsection p {
+    font-size: 15px;
+}
+
+.subsection a {
+    text-decoration: none;
+    color: #20c063;
+}
+
+.footersection {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #3b4144;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footersection ul {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.footersection ul li {
+    display: flex;
+    list-style: none;
+}
+
+.footersection ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footersection p {
+    display: flex;
+    justify-content: center;
+    color: #e8e9ea;
+    font-size: 10px;
+}
