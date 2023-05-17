@@ -1,0 +1,140 @@
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.gaaPageHeader {
+  display: grid;
+  grid-template-columns: 300px 3fr;
+}
+
+.gaaPageHeader > nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.gaaPageHeader > div {
+  margin-left: 20px;
+}
+
+.gaaPageHeaderLogo img{
+  width: 70px;
+  margin-top: 10px;
+}
+
+.gaaPageHeader nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  justify-content: flex-end;
+  align-content: center;
+  margin-right: 10px;
+}
+
+.gaaPageHeader nav ul li a,
+.gaaPageHeader nav ul li a:visited {
+  text-decoration: none;
+  color:#0e0f0f;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 7px;
+}
+
+.gaaHero {
+  background-image: url("melbourne.jpg");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-content: center;
+  min-height: 400px;
+  align-items: center;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.gaaHeroImageBox {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gaaHeroImageBox h1 {
+  font-size: 50px;
+}
+
+.gaaHeroImageBox p {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.gaaButton {
+  display: block;
+  background-color: #ff5358;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 10px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.gaaButton:hover {
+  background-color: #e00007;
+}
+
+.gaaBagel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #efefef;
+}
+
+.gaaBagel > div{
+  background: white;
+  border: 1px solid #dbdbdb;
+}
+
+.gaaBagel h2{
+  background-color: #efefef;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+.gaaTextBox {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.gaaTextBox img {
+  max-width: 50px;
+} 
+/* Colors */
+/* Redish / Pink: #ff5358 */
+/* Dark red for button hover: #e00007 */
+/* Very light gray for backgrounds: #efefef */
+/* Very light gray for borders: #dbdbdb */
+/* Dark gray for footer: #0e0f0f */
+/* White for text and backgrounds: #FFFFFF */
+
+
+/* Background image links */
+/* Hero: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/melbourne.jpg */
+/* Fitzroy: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/fitzroy.jpg */
+/* St. Kilda: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/st-kilda.jpg  */
+/* CBD: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg */
