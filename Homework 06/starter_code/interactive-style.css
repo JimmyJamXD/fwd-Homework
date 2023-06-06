@@ -1,0 +1,59 @@
+/* Featured and Expanded Item */
+
+.trulia-featured-grid-item .trulia-grid-item {
+    display: block;
+    cursor: pointer;
+    transition: ease-in-out 0.15s;
+}
+
+.trulia-featured-grid-item {
+    height: 100%;
+    min-height: 360px;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.trulia-featured-grid-item .trulia-house-image{
+    height: 75%;
+    /* width: 100%; */
+}
+
+.trulia-featured-grid-item .trulia-house-facts{
+    display: grid;
+    grid-template-columns: 200px 1fr;   
+    font-weight: bold;
+    min-height: 200px;
+}
+
+.trulia-featured-grid-item .trulia-house-price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.trulia-featured-grid-item .trulia-house-price h1 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.trulia-featured-grid-item .trulia-house-stats{
+    margin-top: 10px;
+    width:100%;
+}
+
+.trulia-featured-grid-item .trulia-house-stats li {
+    margin-top: 15px;
+    font-size:20px;
+}
+
+.trulia-featured-grid-item .trulia-house-beds{
+    font-size: 25px;
+}
+
+.trulia-featured-grid-item .trulia-house-address{
+    font-weight: normal;
+    color: black;
+    font-size: 20px;
+    min-width: 300px;
+}
+
+
