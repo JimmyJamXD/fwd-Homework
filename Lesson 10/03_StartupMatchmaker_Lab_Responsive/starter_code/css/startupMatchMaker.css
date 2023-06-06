@@ -110,12 +110,25 @@ a {
     display:block;
 }
 
+@media (min-width: 769px)
+{
+    .responsiveTileGroup {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:10px;
+    }
+}
+
 .responsiveTileGroupItem {
     padding: 10px;
     overflow: hidden;
 }
 
-
+@media(max-width:768px) {
+    .responsiveTileGroupItem{
+        border-bottom: 1px solid gray;
+    }
+}
 
 
 .copyright {

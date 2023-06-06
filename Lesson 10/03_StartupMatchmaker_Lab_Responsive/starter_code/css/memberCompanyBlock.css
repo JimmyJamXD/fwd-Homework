@@ -33,6 +33,25 @@
 
 }
 
+@media (max-width: 768px){
+    .memeberCompanyLogos{
+        width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .memberCompanyLogoHaus > img {
+        max-width: 35%;
+    }
+
+    .memberCompanySkills,
+    .memberCompanyLocation {
+        width: 50%;
+        flex-basis: 50%;
+    } 
+}
+
 .memberCompanyLogoHaus > img {
     max-width: 90%;
     margin: 0 auto;
