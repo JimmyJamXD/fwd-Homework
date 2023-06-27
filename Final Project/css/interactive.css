@@ -1,0 +1,28 @@
+.main-grid-items{
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.main-featured-item{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-column: span 3;
+    grid-row: span 2; */
+    /* height: 48%; */
+}
+
+/* .main-feature-item .main-grid-items{
+    height: 677px;
+    display: flex;
+} */
+
+
+
+/*
+.main-feature-item .itemhide-title{
+    display: none;
+}
+
+.main-feature-item .itemhide-p{
+    display: none;
+} */
