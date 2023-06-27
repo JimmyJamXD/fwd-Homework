@@ -1,0 +1,12 @@
+.main-grid-items{
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.main-featured-item{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-column: span 3;
+    grid-row: span 2; */
+    /* height: 48%; */
+}
