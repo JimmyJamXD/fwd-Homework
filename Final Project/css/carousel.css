@@ -152,13 +152,6 @@
 
 @media (max-width: 1024px)
 {
-    .carouselExploreBtn{
-        /* height: 98px;
-        width: 27%;
-        float: left;
-        line-height: 95px; */
-    }
-
     .carousel-Content-Info-Wrap{
         position: absolute;
         top: 19px;
